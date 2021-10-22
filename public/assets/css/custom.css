@@ -1,0 +1,462 @@
+/*header area starts*/
+#navbarCollapse {
+    position: fixed;
+    top: 69px;
+    left: 104px;
+    font-weight: bold;
+}
+.header .navbar-light a.nav-link {
+    font-size: 13px;
+}
+#navbarCollapse .nav-link {
+	border: 1px solid green;
+	padding: 7px;
+	color: white;
+	
+}
+.header_contact{
+	left: 73%;
+	font-family: serif;
+
+}
+.page-header a::after {
+    content: none;
+}
+/*code to dropdown menu starts*/
+.dropdown{
+	display: block;
+}
+.dropdown-content{
+	  display: none;
+	  position: absolute;
+	  background-color: #f1f1f1;
+	  min-width: 220px;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+}
+.dropdown-content a {
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	color: #4F84C4;
+}
+.dropdown-content a:hover {background-color: #4F84C4; color: white;}
+.dropdown:hover .dropdown-content {
+	display: block;
+	position: absolute;
+	color: black;
+	background-color: #ddd;
+}
+/*code to drop down menu ends.*/
+/*Header area ends */
+
+
+.b2l_wrapper{
+    margin-top: 108px;
+    padding-left: 90px;
+    padding-right: 80px;
+    background-color: lightcyan;
+}
+
+.b2l_wrapper .categories{
+	border: 1px solid green;
+    background-color: white;
+
+}
+
+
+.b2l_wrapper .card-header{
+	background-color: #007b45;
+	color: white;
+}
+
+.b2l_wrapper .card-body .btn {
+    
+    margin-top: 50px;
+}
+.carousel-item h2{
+	font-size: 50px;
+	color: #33389a;
+	text-transform: uppercase;
+	text-align: left;
+	font-weight: bold;
+}
+
+.b2l_wrapper .card-body .price{
+	position: relative;
+	top: 30px;
+	height: 80px;
+	width: 80px;
+	background-color: black;
+	border-radius: 50%;
+	border: 1px solid #007b45;
+	display: table;
+	left: 100px;
+	cursor: pointer;
+}
+
+
+.categories{
+	padding: 0px;
+}
+.b2l_wrapper .card-body .price p{
+	display: table-cell;
+	vertical-align: middle;	
+	color: white;
+}
+.b2l_wrapper .categories .nav-item.nav-link{
+	padding-left: 20px;
+	padding-right: 10px;
+    color: black;
+    text-transform: uppercase;
+    border-bottom: 1px solid green;
+    font-size: 12px;
+}
+.categories .nav-item.nav-link:hover{
+
+	display: block;
+	color: white;
+    background-color: #007b45;
+}
+.key_people {
+    padding: 14px;
+    line-height: 17px;
+}
+
+.bg-light {
+    background-color: rgba(234, 234, 234, 0.9) !important;
+}
+
+.brand h3 {
+    font-size: 20px;
+    margin-top: 32px;
+    margin-left: 0px;
+    color: green;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.header .brand img {
+    position: relative;
+    left: -7px;
+}
+
+
+.footer .footer-link a::before {
+    content: none;
+}
+
+/*contact page start*/
+.contact1-pic.js-tilt {
+    margin-left: 30px;
+    padding: 30px;
+}
+/*contact page ends*/
+/*All training page start*/
+
+.training .card-body .price{
+	position: relative;
+	top: 25px;
+	height: 80px;
+	width: 80px;
+	background-color: black;
+	border-radius: 50%;
+	border: 1px solid #007b45;
+	display: table;
+	left: 89px;
+	cursor: pointer;
+}
+
+.training .card-body .price p{
+	display: table-cell;
+	vertical-align: middle;	
+	color: white;
+}
+.training .card-header {
+    padding: 20px;
+    margin-bottom: 0;
+    background-color: #007b45;
+    color: white;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.special_section{
+	padding: 26px;
+}
+
+
+/*All training page ends*/
+/*training on category page*/
+.training_on_category .card-body .price{
+	position: relative;
+	top: 50px;
+	height: 80px;
+	width: 80px;
+	background-color: black;
+	border-radius: 50%;
+	border: 1px solid #007b45;
+	display: table;
+	left: 87px;
+	cursor: pointer;
+}
+.training_on_category .card-body .price p{
+	display: table-cell;
+	vertical-align: middle;	
+	color: white;
+}
+.training_on_category .card-body .btn { 
+    margin-top: 50px;
+}
+.training_on_category .card-header {
+    padding: 20px;
+    margin-bottom: 0;
+    background-color: #007b45;
+    color: white;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+/*training on category ends*/
+/*single training page */
+.single img{
+	width: 100%;
+	height: auto;
+}
+.card-header {
+    padding: 20px;
+    margin-bottom: 0;
+    background-color: white;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.schedule a {
+	text-decoration: none;
+	color: white;
+}
+.related .card-header{
+	background-color: green;
+	color: white;
+}
+
+.related .card-body .price{
+	position: relative;
+	top: 72px;
+	height: 80px;
+	width: 80px;
+	background-color: black;
+	border-radius: 50%;
+	border: 1px solid #007b45;
+	display: table;
+	left: 90px;
+	cursor: pointer;
+}
+
+.related .card-body .btn { 
+    margin-top: 50px;
+}
+
+.related .card-body .price p{
+	display: table-cell;
+	vertical-align: middle;	
+	color: white;
+}
+.payment_mode {
+    position: relative;
+    top: -24px !important;
+}
+
+/*Books start*/
+.portfolio .portfolio-item figure .portfolio-title {
+    background-color: black;
+    text-transform: uppercase;
+   }
+.portfolio .portfolio-item {
+
+    overflow: visible;
+}
+.row.text-center.book_order {
+    padding-left: 12px;
+    padding-top: 10px;
+}
+.btn.book_order_button {
+    color: white;
+    font-size: 25px;
+}
+.book_shorts {
+    padding: 25px 0px;
+}
+.col-lg-6.col-md-6.col-sm-6.portfolio-item.web-des {
+    margin-top: 60px;
+}
+.col-md-6.book_des {
+    background-color: lightcyan;
+}
+
+/*Books end*/
+/*media query 600 start*/
+@media screen and (max-width: 768px) {
+	.brand h3 {
+    	font-size: 14px;
+	}
+	.header_contact{
+		left: 60%;
+	}
+	.b2l_wrapper {
+    	margin-top: 20px;
+    	padding-left: 30px;
+		padding-right: 30px;
+    }
+    #navbarCollapse .nav-link {
+    	border: 1px solid green;
+		padding: 5px;
+		font-size: 12px;
+		margin-bottom: 1px;
+		float: left;
+	}
+	#navbarCollapse .navbar-nav {
+	    display: inline;
+	    list-style: none;
+	}
+	.fixed-top {
+	    position: relative;
+	    top: 0;
+	    right: 0;
+	    left: 0;
+	    z-index: 1030;
+	}
+	#navbarCollapse {
+	    position: relative;
+	    top: 10px;
+	    left: 1px;
+	    font-weight: bold;
+	}
+
+	.categories .nav-link{
+		font-size: 12px;
+	}
+	.b2l_wrapper .categories .nav-item.nav-link {
+		border: none;
+		padding-left: 12px;
+	}
+	.d-block.w-100 {
+	    height: 300px;
+	}
+	.b2l_wrapper .categories {
+	    border: none;
+	    background-color: lightcyan;
+	}
+	.b2l_wrapper .card-body .btn {
+	    margin-top: 5px;
+	}
+	.rounded-circle {
+	    margin-top: 10px;
+	}
+	.b2l_wrapper .card-body .price{
+		top: 12px;
+		left: 115px;
+	}
+	.related .card-body .price{
+    	top: 12px;
+    	left: 130px;
+    }
+    .training .card-body .price{
+		position: relative;
+		top: 15px;
+		left: 130px;
+	}
+	.training_on_category .card-body .price{
+		position: relative;
+		top: 10px;
+		left: 130px;
+	}
+	.schedule a{
+		display: block;
+	}
+	.page-header {
+	    text-align: left;
+	}
+
+	.contact1-pic {
+	    display: block !important;
+	}
+
+
+	
+}
+/*media query 600 ends*/
+/*media @400*/
+@media screen and (max-width: 400px) {
+.d-block.w-100 {
+	    height: 170px;
+	}
+	.header_contact{
+		display: none;
+	}
+
+}
+/*media @400*/
+/*media @1092 starts*/
+@media screen and (max-width: 1092px) {
+
+	#navbarCollapse .nav-link {
+	    border: 1px solid green;
+	    padding: 5px;
+	    font-size: 12px;
+	    margin-bottom: 1px;
+	    float: left;
+	}
+}
+/*media @1092 ends*/
+
+@media screen and (max-width: 992px) {
+
+	.navbar-nav {
+    	display: inline;
+	}
+	#navbarCollapse .nav-link {
+	    font-size: 9px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+
+	.b2l_wrapper .card-body .price {
+	    position: relative;
+	    top: 15px;
+	    left: 96px;
+	}
+	.training .card-body .price{
+		position: relative;
+	    top: 15px;
+	    left: 114px;
+	}
+	.col-lg-6.col-md-6.col-sm-6.portfolio-item.web-des {
+	    margin-bottom: 317px;
+	}
+	.row.text-center.book_order {
+		position: relative;
+		top: -104px;
+	    padding-left: 0px;
+	    padding-top: 0px;
+	}
+	.portfolio .portfolio-item figure {
+	    margin: 0px -12px;
+	}
+
+	.book_shorts {
+	    margin-bottom: 110px;
+	}
+	.btn.book_order_button {
+	    font-size: 20px;
+	}
+
+	.map{
+		width: 100%;
+	}
+	.header_contact{
+		display: none;
+	}
+	
+}
+
+
+
